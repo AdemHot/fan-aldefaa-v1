@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>فن الدفاع | كتاب عربي مجاني لكشف التلاعب النفسي</title>
+<meta name="description" content="كتاب عربي عملي من 108 صفحات: عشرة أساليب تلاعب نفسي، علامات كشفها، وجمل هادئة للرد. تحميل مجاني بصيغة PDF.">
+<meta name="theme-color" content="#0B1530">
+<meta name="color-scheme" content="dark">
+
+<!-- مشاركة الرابط على واتساب وتيك توك وغيرهما -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:title" content="فن الدفاع: كيف تكشف التلاعب النفسي وتحمي نفسك">
+<meta property="og:description" content="كتاب عربي مجاني: عشرة أساليب تلاعب، وعلامات كشفها، وجمل هادئة للرد.">
+<!-- TODO: بعد نشر الموقع، استبدل الرابط التالي برابط موقعك الكامل، مثل: https://اسمك.github.io/اسم-المستودع/og-image.png -->
+<meta property="og:image" content="og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 115'%3E%3Cpath d='M50 4 94 18v40L50 111 6 58V18z' fill='%230B1530' stroke='%23D4AF37' stroke-width='7'/%3E%3Ccircle cx='50' cy='52' r='11' fill='none' stroke='%23D4AF37' stroke-width='6'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --night:#0B1530; --deep:#060B1C; --gold:#D4AF37; --gold-soft:#E6CB72;
+  --text:#ECEAE2; --muted:#A3ACC6; --line:rgba(212,175,55,.28);
+  --font:'Cairo','Tajawal',Tahoma,'Segoe UI',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--deep);color-scheme:dark;-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:var(--font);color:var(--text);font-size:1.0625rem;line-height:1.95;
+  background:
+    radial-gradient(900px 600px at 85% -5%, rgba(212,175,55,.10), transparent 60%),
+    radial-gradient(800px 700px at 0% 40%, rgba(40,70,160,.18), transparent 60%),
+    linear-gradient(180deg,var(--night),var(--deep) 70%);
+  background-attachment:fixed;
+}
+a{color:inherit}
+.wrap{max-width:1080px;margin-inline:auto;padding-inline:clamp(20px,5vw,40px)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+section{padding-block:clamp(64px,10vw,120px)}
+h1,h2,h3,p{margin:0}
+h2{font-weight:800;font-size:clamp(1.7rem,4.6vw,2.6rem);line-height:1.4;color:#fff;max-width:20em}
+.lead{color:var(--muted);max-width:34em;margin-top:14px}
+
+/* ---------- زر التحميل ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:12px;background:var(--gold);color:#141414;text-decoration:none;
+  font-weight:800;font-size:1.15rem;padding:14px 28px;border-radius:999px;border:0;cursor:pointer;
+  box-shadow:0 10px 30px rgba(212,175,55,.28);transition:transform .2s,box-shadow .2s,background .2s;
+}
+.btn:hover{transform:translateY(-2px);background:var(--gold-soft);box-shadow:0 14px 36px rgba(212,175,55,.38)}
+.btn svg{width:22px;height:22px;flex:none}
+.btn.ghost{background:transparent;color:var(--gold);border:1.5px solid var(--line);box-shadow:none}
+.btn.ghost:hover{background:rgba(212,175,55,.1);border-color:var(--gold)}
+.meta{color:var(--muted);font-size:.95rem;margin-top:14px}
+
+/* ---------- الواجهة ---------- */
+.hero{position:relative;overflow:hidden;padding-block:clamp(40px,7vw,90px) clamp(56px,8vw,100px)}
+.hero .mark{position:absolute;left:-5%;top:50%;width:min(620px,80vw);height:min(713px,92vw);transform:translateY(-50%);opacity:.04;pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(32px,6vw,72px);align-items:center}
+.brand{display:flex;align-items:center;gap:10px;color:var(--gold);font-weight:800;margin-bottom:clamp(28px,5vw,56px)}
+.brand svg{width:28px;height:32px}
+h1{font-weight:900;line-height:1.25;font-size:clamp(2.1rem,4.7vw,3.7rem);letter-spacing:0}
+@media (max-width:860px){h1{font-size:clamp(2.1rem,8vw,3.3rem)}}
+.hl{display:block;overflow:hidden;padding-block:.06em}
+.hl>span{display:inline-block;white-space:nowrap;transform:translateY(110%);animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:var(--d)}
+.hl.small{font-size:.5em;font-weight:600;color:var(--muted)}
+.hl.q>span{color:var(--gold);animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards var(--d),split .5s steps(2,end) 1.15s 1}
+@keyframes rise{to{transform:none}}
+@keyframes split{0%,100%{text-shadow:none}35%{text-shadow:-7px 0 rgba(255,40,90,.75),7px 0 rgba(0,230,255,.75)}70%{text-shadow:5px 0 rgba(255,40,90,.6),-5px 0 rgba(0,230,255,.6)}}
+.sub{margin-top:clamp(20px,3vw,32px);font-size:clamp(1.05rem,2.4vw,1.3rem);color:var(--text);max-width:27em;line-height:1.85;opacity:0;animation:fade .8s ease 1.5s forwards}
+.cta-row{margin-top:30px;opacity:0;animation:fade .8s ease 1.7s forwards}
+@keyframes fade{to{opacity:1}}
+.cta-row .links{margin-top:18px}
+.cta-row .links a{color:var(--muted);text-underline-offset:5px}
+.cta-row .links a:hover{color:var(--gold)}
+
+/* ---------- غلاف الكتاب ---------- */
+.book-wrap{display:grid;place-items:center;perspective:1400px;padding:10px}
+.book{
+  position:relative;width:min(310px,72vw);aspect-ratio:2/3;transform:rotateY(-9deg) rotateX(2deg);
+  transition:transform .6s cubic-bezier(.2,.7,.2,1);
+  filter:drop-shadow(0 34px 38px rgba(0,0,0,.55)) drop-shadow(0 0 60px rgba(212,175,55,.12));
+}
+.book:hover{transform:rotateY(0) rotateX(0)}
+.cover{
+  position:absolute;inset:0;border-radius:12px 4px 4px 12px;overflow:hidden;
+  background:linear-gradient(160deg,#12245a 0%,var(--night) 58%,#070d22 100%);
+  border:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:30px 24px;
+}
+.cover::before{content:"";position:absolute;inset:14px;border:1px solid rgba(212,175,55,.55);border-radius:6px 2px 2px 6px;pointer-events:none}
+.cover::after{content:"";position:absolute;inset-block:0;inset-inline-end:0;width:22px;background:linear-gradient(270deg,rgba(255,255,255,.10),rgba(255,255,255,0));border-inline-end:1px solid rgba(255,255,255,.12)}
+.cover svg{width:78px;height:90px}
+.cover .t{font-weight:900;font-size:clamp(2.1rem,7vw,2.7rem);color:var(--gold);line-height:1.2}
+.cover .rule{width:56px;height:2px;background:var(--gold);opacity:.7}
+.cover .s{font-size:.92rem;color:#d9dcea;line-height:1.7;max-width:13em}
+.cover .by{position:absolute;bottom:28px;font-size:.85rem;color:var(--gold);font-weight:600}
+
+/* ---------- المشكلة ---------- */
+.problem p{font-size:clamp(1.3rem,3.2vw,1.95rem);line-height:1.8;max-width:26em;color:#f4f2ea}
+.problem p+p{margin-top:.9em;color:var(--muted);font-size:clamp(1.1rem,2.6vw,1.45rem)}
+.problem p.last{color:var(--gold);font-weight:800}
+
+/* ---------- الفهرس ---------- */
+.part{margin-top:clamp(36px,5vw,56px);font-weight:800;color:var(--gold);font-size:1.15rem;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.index{list-style:none;margin:0;padding:0;column-count:2;column-gap:clamp(28px,5vw,64px)}
+.index li{display:grid;grid-template-columns:2.6rem 1fr;gap:6px 10px;padding:16px 0;border-bottom:1px solid rgba(212,175,55,.14);break-inside:avoid}
+.index .n{color:var(--gold);font-weight:800;font-size:1.25rem;line-height:1.5}
+.index b{display:block;font-weight:800;color:#fff;font-size:1.1rem;line-height:1.6}
+.index span.d{display:block;color:var(--muted);font-size:.98rem;line-height:1.75}
+.extras{margin-top:18px;color:var(--muted)}
+.extras b{color:var(--text)}
+
+/* ---------- داخل كل فصل ---------- */
+.anatomy{list-style:none;counter-reset:s;margin:36px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:0 28px}
+.anatomy li{counter-increment:s;padding:18px 0 22px;border-top:1px solid var(--line);font-weight:600;color:#fff;line-height:1.7}
+.anatomy li::before{content:counter(s,arabic-indic);display:block;color:var(--gold);font-weight:800;font-size:.95rem;margin-bottom:4px}
+
+/* ---------- لمن ---------- */
+.fit{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);margin-top:36px}
+.fit h3{font-weight:800;font-size:1.25rem;color:#fff;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.fit ul{list-style:none;margin:14px 0 0;padding:0}
+.fit li{position:relative;padding-inline-start:22px;margin-bottom:10px;color:#d9dcea}
+.fit li::before{content:"";position:absolute;inset-inline-start:0;top:.85em;width:9px;height:2px;background:var(--gold)}
+.fit .no li::before{background:#8a93ad}
+.fit .no h3{color:#cfd3e4}
+
+/* ---------- عن الصفحة ---------- */
+.about{border-block:1px solid var(--line);background:linear-gradient(90deg,rgba(212,175,55,.06),transparent)}
+.about-in{display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center;justify-content:space-between}
+.about p{max-width:32em;color:#d9dcea}
+.about h2{font-size:clamp(1.5rem,4vw,2.1rem);margin-bottom:8px}
+
+/* ---------- الأسئلة ---------- */
+.faq{margin-top:30px;max-width:46em}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:18px 0;font-weight:800;color:#fff;display:flex;justify-content:space-between;gap:16px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-size:1.6rem;line-height:1;font-weight:600;transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 20px;color:#cfd3e4;max-width:38em}
+
+/* ---------- الختام ---------- */
+.final{text-align:center}
+.final h2{margin-inline:auto}
+.final .btn{margin-top:28px}
+footer{border-top:1px solid var(--line);padding-block:36px 56px;color:var(--muted);font-size:.93rem;line-height:1.9}
+footer p{max-width:46em}
+footer .h{margin-top:12px;color:var(--gold);font-weight:600}
+
+/* ---------- شريط التحميل على الهاتف ---------- */
+.dock{
+  display:none;position:fixed;inset-inline:0;bottom:0;z-index:20;padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+  background:rgba(6,11,28,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);
+  transform:translateY(110%);transition:transform .3s ease;
+}
+.dock.on{transform:none}
+.dock .btn{width:100%;justify-content:center;padding-block:13px}
+
+/* ---------- الهاتف ---------- */
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr}
+  .book-wrap{order:2;margin-top:12px}
+  .index{column-count:1}
+  .anatomy{grid-template-columns:1fr 1fr}
+  .fit{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .dock{display:block}
+  body{padding-bottom:84px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .hl>span,.sub,.cta-row{animation:none!important;opacity:1;transform:none}
+  .book,.btn,summary::after,.dock{transition:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="shield" viewBox="0 0 100 115">
+      <path d="M50 4 94 18v40L50 111 6 58V18z" fill="none" stroke="#D4AF37" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M50 14 84 25v32L50 99 16 57V25z" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity=".5" stroke-linejoin="round"/>
+      <path d="M26 52q24-22 48 0-24 22-48 0z" fill="none" stroke="#D4AF37" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="50" cy="52" r="9" fill="none" stroke="#D4AF37" stroke-width="4"/>
+      <circle cx="50" cy="52" r="3.4" fill="#D4AF37"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ===== الواجهة ===== -->
+<header class="hero">
+  <svg class="mark" aria-hidden="true"><use href="#shield"/></svg>
+  <div class="wrap">
+    <div class="brand"><svg aria-hidden="true"><use href="#shield"/></svg><span>الدرع النفسي</span></div>
+
+    <div class="hero-grid">
+      <div>
+        <h1>
+          <span class="hl small"><span style="--d:.1s">إذا قال لك:</span></span>
+          <span class="hl q"><span style="--d:.5s">«أنت حساس زيادة»</span></span>
+          <span class="hl"><span style="--d:.9s">فهو يتلاعب بك</span></span>
+        </h1>
+        <p class="sub"><b>فن الدفاع</b> دليل عملي بالعربية يعلّمك كيف تسمّي ما يحدث لك، وكيف ترد عليه بهدوء وحزم.</p>
+        <div class="cta-row">
+          <a id="cta-top" class="btn" href="book.pdf" download="فن_الدفاع.pdf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
+            حمّل الكتاب مجاناً
+          </a>
+          <p class="meta">ملف PDF، 108 صفحات، نحو 1.3 ميغابايت</p>
+          <p class="links"><a href="#index">تصفّح الفهرس</a></p>
+        </div>
+      </div>
+
+      <div class="book-wrap" aria-hidden="true">
+        <div class="book">
+          <div class="cover">
+            <svg><use href="#shield"/></svg>
+            <div class="t">فن الدفاع</div>
+            <div class="rule"></div>
+            <div class="s">كيف تكشف التلاعب النفسي وتحمي نفسك</div>
+            <div class="by">الدرع النفسي</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== المشكلة ===== -->
+<section class="problem" aria-labelledby="p-h">
+  <div class="wrap">
+    <h2 id="p-h" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">لماذا هذا الكتاب</h2>
+    <p>كنت تشعر أن شيئاً ما غير صحيح، لكنك لم تجد الكلمة التي تصفه.</p>
+    <p>تعتذر وأنت لا تعرف عن ماذا. تخرج من النقاش وأنت المخطئ دائماً. ثم يقول لك أحدهم «أنت حساس زيادة»، فتبدأ بالشك في نفسك.</p>
+    <p class="last">هذا الكتاب يعطيك الاسم الدقيق لكل أسلوب، والجملة الهادئة التي ترد بها.</p>
+  </div>
+</section>
+
+<!-- ===== الفهرس ===== -->
+<section id="index" aria-labelledby="i-h" style="padding-top:0">
+  <div class="wrap">
+    <h2 id="i-h">اثنا عشر فصلاً تأخذك من الفهم إلى الرد</h2>
+    <p class="lead">عشرة أساليب تلاعب شائعة، ثم فصلان للحماية واستعادة قوتك.</p>
+
+    <h3 class="part">الجزء الأول: الأساليب العشرة</h3>
+    <ol class="index">
+      <li><span class="n">١</span><div><b>التلاعب بالذنب</b><span class="d">أن يحمّلك الآخر مسؤولية مشاعره ليحصل على ما يريد.</span></div></li>
+      <li><span class="n">٢</span><div><b>الإنكار والتشكيك في الذاكرة</b><span class="d">أن تُقنَع بأن ما رأيته أو سمعته لم يحدث.</span></div></li>
+      <li><span class="n">٣</span><div><b>المعاملة الصامتة</b><span class="d">الصمت المتعمّد كعقاب بدل الحوار.</span></div></li>
+      <li><span class="n">٤</span><div><b>القصف بالحب</b><span class="d">اهتمام مفرط وسريع يصعّب عليك رؤية الصورة كاملة.</span></div></li>
+      <li><span class="n">٥</span><div><b>العزل عن الآخرين</b><span class="d">إبعادك تدريجياً عمّن يسندونك.</span></div></li>
+      <li><span class="n">٦</span><div><b>لعب دور الضحية</b><span class="d">قلب الأدوار حتى تصبح أنت من يعتذر.</span></div></li>
+      <li><span class="n">٧</span><div><b>تغيير القواعد باستمرار</b><span class="d">معيار لا يثبت، فلا تُرضي أحداً مهما فعلت.</span></div></li>
+      <li><span class="n">٨</span><div><b>التثليث بإدخال طرف ثالث</b><span class="d">استخدام شخص آخر للضغط عليك أو للمقارنة بينكما.</span></div></li>
+      <li><span class="n">٩</span><div><b>الاستعجال والضغط</b><span class="d">قرار سريع قبل أن تجد وقتاً للتفكير.</span></div></li>
+      <li><span class="n">١٠</span><div><b>المجاملة المسمومة</b><span class="d">كلام لطيف يخفي طلباً أو تقليلاً.</span></div></li>
+    </ol>
+
+    <h3 class="part">الجزء الثاني: الحماية والاستعادة</h3>
+    <ol class="index">
+      <li><span class="n">١١</span><div><b>بناء الحدود</b><span class="d">كيف تقول «لا» دون شعور بالذنب.</span></div></li>
+      <li><span class="n">١٢</span><div><b>خطة الأيام السبعة</b><span class="d">خطوات صغيرة لاستعادة قوتك.</span></div></li>
+    </ol>
+    <p class="extras"><b>ملاحق:</b> بطاقة مرجعية تجمع الأساليب وجمل الرد، وخاتمة بعنوان «أول الطريق».</p>
+  </div>
+</section>
+
+<!-- ===== داخل كل فصل ===== -->
+<section aria-labelledby="a-h" style="padding-top:0">
+  <div class="wrap">
+    <h2 id="a-h">كل فصل يبني عليك خطوة بخطوة</h2>
+    <p class="lead">يمشي كل أسلوب من الأساليب العشرة على الترتيب نفسه، فتعرف أين تجد ما تحتاجه.</p>
+    <ol class="anatomy">
+      <li>قصة قصيرة من واقع عربي</li>
+      <li>اسم الأسلوب</li>
+      <li>كيف يعمل على العقل</li>
+      <li>خمس علامات تكشفه مبكراً</li>
+      <li>جمل جاهزة للرد</li>
+      <li>خطأ شائع يقع فيه المتأثر</li>
+      <li>تمرين عملي في خمس دقائق</li>
+      <li>خلاصة في ثلاثة أسطر</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== لمن ===== -->
+<section aria-labelledby="f-h" style="padding-top:0">
+  <div class="wrap">
+    <h2 id="f-h">لمن هذا الكتاب</h2>
+    <div class="fit">
+      <div class="yes">
+        <h3>هذا الكتاب لك إذا</h3>
+        <ul>
+          <li>تشعر أنك دائماً المقصّر في نقاشاتك.</li>
+          <li>تعتذر وأنت لا تعرف على ماذا.</li>
+          <li>تريد جملاً هادئة ترد بها دون صدام.</li>
+          <li>تريد أن تفهم ما يحدث لك قبل أن تقرر.</li>
+        </ul>
+      </div>
+      <div class="no">
+        <h3>ليس لك إذا</h3>
+        <ul>
+          <li>تريد وسيلة للتأثير في الآخرين أو السيطرة عليهم. الكتاب كُتب للدفاع فقط.</li>
+          <li>تبحث عن تشخيص نفسي أو علاج.</li>
+          <li>أنت في خطر جسدي الآن. اطلب مساعدة متخصصة فوراً أو اتصل بالطوارئ.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== عن الصفحة ===== -->
+<section class="about">
+  <div class="wrap about-in">
+    <div>
+      <h2>الدرع النفسي</h2>
+      <p>صفحة عربية على تيك توك تشرح أساليب التلاعب النفسي في فيديوهات قصيرة، وتعطيك جملاً جاهزة للرد.</p>
+    </div>
+    <a class="btn ghost" href="https://www.tiktok.com/@alderea.alnafsi" target="_blank" rel="noopener">تابع الصفحة على تيك توك</a>
+  </div>
+</section>
+
+<!-- ===== الأسئلة ===== -->
+<section aria-labelledby="q-h">
+  <div class="wrap">
+    <h2 id="q-h">أسئلة شائعة</h2>
+    <div class="faq">
+      <details>
+        <summary>هل الكتاب مجاني؟</summary>
+        <p>نعم. التحميل مجاني بالكامل ولا يحتاج تسجيلاً ولا بريداً إلكترونياً.</p>
+      </details>
+      <details>
+        <summary>هل يغني عن مختص نفسي؟</summary>
+        <p>لا. الكتاب تثقيفي، غايته رفع الوعي بأساليب التواصل المؤذية وتعليم طرق الدفاع عن النفس. وهو لا يقدّم تشخيصاً لأي شخص ولا علاجاً لأي حالة.</p>
+      </details>
+      <details>
+        <summary>كيف أقرأه من الهاتف؟</summary>
+        <p>بعد التحميل افتح الملف بأي قارئ PDF. مقاسه 6×9 بوصة، وهو قريب من حجم الكتب الورقية ومريح على الشاشة.</p>
+      </details>
+      <details>
+        <summary>هل القصص حقيقية؟</summary>
+        <p>أسماء الشخصيات والقصص في الكتاب مختلقة، وغايتها توضيح الفكرة بمواقف قريبة من حياتنا.</p>
+      </details>
+      <details>
+        <summary>هل أستخدم هذه الأساليب مع الآخرين؟</summary>
+        <p>لا. الكتاب مكتوب للدفاع فقط، لا لاستخدام هذه الأساليب ضد أحد. وليس فيه وعد بنتائج مضمونة.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== الختام ===== -->
+<section class="final" id="get" style="padding-top:0">
+  <div class="wrap">
+    <h2>ابدأ بالفصل الأول اليوم</h2>
+    <p class="lead" style="margin-inline:auto">كتاب واحد، وجملة هادئة تكفي لتغيّر النقاش القادم.</p>
+    <a id="cta-end" class="btn" href="book.pdf" download="فن_الدفاع.pdf">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
+      حمّل الكتاب مجاناً
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>محتوى تثقيفي ولا يغني عن استشارة مختص نفسي. وفي حالات العنف أو التهديد أو الخطر، اطلب مساعدة متخصصة فوراً.</p>
+    <p class="h">الدرع النفسي | <bdi dir="ltr">@alderea.alnafsi</bdi></p>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <a class="btn" href="book.pdf" download="فن_الدفاع.pdf">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
+    حمّل الكتاب مجاناً
+  </a>
+</div>
+
+<script>
+/* يظهر شريط التحميل السفلي على الهاتف بعد تجاوز زر الواجهة، ويختفي عند الوصول إلى زر الختام */
+(function () {
+  var dock = document.getElementById('dock');
+  var top = document.getElementById('cta-top');
+  var end = document.getElementById('cta-end');
+  if (!dock || !top || !end || !('IntersectionObserver' in window)) return;
+  var topSeen = true, endSeen = false;
+  function update() { dock.classList.toggle('on', !topSeen && !endSeen); }
+  new IntersectionObserver(function (e) { topSeen = e[0].isIntersecting || e[0].boundingClientRect.top > 0; update(); }).observe(top);
+  new IntersectionObserver(function (e) { endSeen = e[0].isIntersecting; update(); }).observe(end);
+})();
+</script>
+</body>
+</html>
